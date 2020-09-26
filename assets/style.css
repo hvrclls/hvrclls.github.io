@@ -1,0 +1,11 @@
+.avatar{
+    border-radius: 100%;
+    width: 175px;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    width: 80%;
+}

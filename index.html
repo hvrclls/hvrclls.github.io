@@ -1,15 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hever Calles</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eaque earum est? Fugiat, temporibus quia beatae reiciendis maiores ipsa nihil error repellat quam obcaecati unde nobis molestiae odit. Minus, maxime.
-    </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hever Calles</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/main.css">
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Hever Calles</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="portfolio.html">About Me</a>
+        <a class="nav-link" href="contact.html">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid" id="jumbo">
+    <div class="container-sm">
+      <div class="row">
+        <div class="col-md-auto">
+          <img src="./assets/img/me.jpg" class="rounded float-left" id="mainimg" alt="Profile photo">
+        </div>
+
+        <div class="col align-self-center">
+          <div id="main">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">I'm Hever Calles a student of Rutgers Full Stack Dev bootcamp from New Jersey.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="container-md">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Github</div>
+          <a href="https://github.com/hvrclls" target="_blank">
+            <img id="image-border" src="./assets/img/githubpng.png" alt="Headshot" class="img-thumbnail headshot">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Github Profile</h5>
+            <p class="card-text">You can find all al the projects I've contributed to at <a
+                href="https://github.com/hvrclls" target="_blank">Github.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Project Example</div>
+          <a href="https://github.com/hvrclls" target="_blank">
+            <img id="image-border" src="./assets/img/democard.jpg" alt="Headshot" class="img-thumbnail headshot">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Project Description</h5>
+            <p class="card-text">This would be an example of a project card with an active link and clickable project
+              card image. <a href="https://github.com/hvrclls" target="_blank">Github</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Project Example</div>
+          <a href="https://github.com/hvrclls" target="_blank">
+            <img id="image-border" src="./assets/img/democard.jpg" alt="Headshot" class="img-thumbnail headshot">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Project Description</h5>
+            <p class="card-text">This would be an example of a project card with an active link and clickable project
+              card image. <a href="https://github.com/hvrclls" target="_blank">Github</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </html>
